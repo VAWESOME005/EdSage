@@ -1,0 +1,103 @@
+.landingPage__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 6%;
+    background-color: white;
+    color: black;
+  }
+  
+  .landingPage__textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    padding-top: 5%;
+  }
+  
+  .landingPage__text {
+    display: inline-block;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 65px;
+  }
+  
+  .landingPage__image {
+    width: auto;
+    height: 100px;
+    padding-left: 5%;
+  }
+  
+  .landingPage__miniText {
+    /* background: -webkit-linear-gradient(right, blue, red, rgb(216, 143, 143));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(60deg, red, yellow);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+  }
+  
+  .landingPage__boxesTitle {
+    margin-top: 50vh;
+    background-color: white;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .landingPage__boxContainer {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* align-items: center; */
+  }
+  
+  .landingPage__boxes {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    /* border: 3px solid black; */
+    /* box-shadow: 5px 5px; */
+    border-radius: 15px;
+    margin-bottom: 35px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .landingPage__miniContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .landingPage__image1Main {
+    height: auto;
+    width: 150px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+  }
+  
+  .landingPage__textDes {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  
+  .landingPage__boxNumber {
+    color: lightgray;
+    letter-spacing: 2px;
+  }

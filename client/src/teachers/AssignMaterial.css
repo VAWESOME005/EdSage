@@ -1,0 +1,71 @@
+.assignMaterial {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.assignMaterial__box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 20vw;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  margin: 0 5vw;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.assignMaterial__box:hover {
+  color: white;
+  background-color: rgb(253, 106, 106);
+}
+
+.assignMaterial__orLine {
+  border: 1px solid black;
+  height: 20vh;
+  margin-left: 0.7vw;
+  width: 1px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+
+.assignMaterial__createCard {
+    padding: 50px;
+    border: 1px solid black;
+    height: 40vh; 
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.assignMaterial__createCard > input {
+    font-size: medium;
+    outline-width: 0;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.assignMaterial__answer {
+    margin-top: 5vh;
+}
+
+.assignMaterial__button {
+    width: 6vw;
+    height: 6vh;
+    border-radius: 25px;
+    background-color: rgb(253, 106, 106);
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}

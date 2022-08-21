@@ -1,0 +1,113 @@
+.studentDashboard {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .studentDashboard__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .studentDashboard__sideButton {
+    width: 12vw;
+    height: 6vh;
+    border-radius: 25px;
+    background-color: rgb(253, 106, 106);
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .studentDashboard__left {
+    margin-top: 10vh;
+    padding-right: 10vw;
+    border-right: 1.5px solid lightgray;
+    height: 64vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .studentDashboard__name {
+    border: 5px solid rgb(253, 106, 106);
+    text-align: center;
+    position: fixed;
+    width: 20vw;
+  }
+  
+  .studentDashboard__active {
+    width: 15vw;
+    margin-left: 9vw;
+    margin-top: 10vh;
+    height: 8vh;
+    background-color: rgb(23, 113, 0);
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .studentDashboard__inactive {
+    width: 15vw;
+    margin-left: 9vw;
+    margin-top: 10vh;
+    height: 8vh;
+    background-color: rgb(146, 140, 140);
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .studentDashboard__right {
+    display: flex;
+    align-items: center;
+    border-right: 1.5px solid lightgray;
+    flex-direction: column;
+    margin-top: 10vh;
+    justify-content: center;
+    width: 47vw;
+    height: 64vh;
+    margin-left: 34vw;
+  }
+  
+  .studentDashboard__classBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 50px;
+    width: 20vw;
+    height: 35vh;
+    margin-top: 8vh;
+  }
+/*   
+  .studentDashboard__classesContainer {
+    margin-top: 90vh;
+  } */
+  
+  .studentDashboard__classButton {
+    width: 9vw;
+    height: 6vh;
+    border-radius: 25px;
+    margin: 0 0.5vw;
+    background-color: rgb(253, 106, 106);
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .h6 {
+      font-weight: 600;
+      font-size: small;
+      margin-top: 0.5vh;
+  }
